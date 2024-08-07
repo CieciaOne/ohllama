@@ -1,0 +1,13 @@
+[package]
+name = "ohl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+atty = "0.2.14"
+clap = { version = "4.5.13", features = ["derive"] }
+config = "0.14.0"
+ollama-rs = "0.2.0"
+serde = "1.0.204"
+tokio = { version = "1", features = ["full"] }
+toml = "0.8.19"
